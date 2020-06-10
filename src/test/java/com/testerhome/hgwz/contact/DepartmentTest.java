@@ -1,7 +1,11 @@
 package com.testerhome.hgwz.contact;
 
+import com.jayway.jsonpath.DocumentContext;
+import com.jayway.jsonpath.JsonPath;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
 
 import static org.hamcrest.Matchers.equalTo;
 
@@ -31,11 +35,28 @@ class DepartmentTest {
     void create() {
         String name = "测试部门" + random;
         department.create(name,"1").then().body("errcode",equalTo(0));
-//        department.create("测试部门"+random,"1").then().body("errcode",equalTo(60008));
-//        String id = department.list("").path("department.find{ it.name == '测试部门{random}'}.id").toString();
+        String id = department.list("").path("department.find{ it.name == super.name}.id").toString();
+        department.delete(id);
 
-//        department.delete(id);
+    }
+    @Test
+    void createExisted() {
+        String name = "测试部门" + random;
+        String id = department.create(name, "1").path("id").toString();
+        department.create("测试部门"+random,"1").then().body("errcode",equalTo(60008));
+        department.delete(id);
+    }
 
+    @Test
+    void createMap() {
+        String name = "测试部门" + random;
+        HashMap<String, Object> hashMap = new HashMap();
+        hashMap.put("name", name);
+        hashMap.put("parentid", 1);
+        hashMap.put("name_en", null);
+        hashMap.put("order", null);
+        hashMap.put("id", null);
+        department.createMap(hashMap).then().body("errcode",equalTo(0));
     }
 
     @Test
@@ -51,4 +72,19 @@ class DepartmentTest {
                 .then().body("errcode", equalTo(0)).body("errmsg", equalTo("updated"));
         department.delete(id);
     }
+
+    @Test
+    void updateMap() {
+        String id = department.create("测试部门"+random, "1").path("id").toString();
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("id", id);
+        hashMap.put("name", "测试部门101"+random);
+        hashMap.put("parentid", 1);
+        hashMap.put("name_en", null);
+        hashMap.put("order", null);
+        department.updateMap(hashMap)
+                .then().body("errcode", equalTo(0)).body("errmsg", equalTo("updated"));
+        department.delete(id);
+    }
+
 }
