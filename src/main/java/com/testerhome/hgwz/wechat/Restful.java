@@ -1,5 +1,7 @@
 package com.testerhome.hgwz.wechat;
 
+import com.jayway.jsonpath.DocumentContext;
+import com.jayway.jsonpath.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -29,6 +31,12 @@ public class Restful {
         return requestSpecification.when().request("get", "www.baidu.com");
     }
 
-
+    public static String template(String jsonname, HashMap<String, Object> hashMap) {
+        DocumentContext documentContext = JsonPath.parse(Restful.class.getResourceAsStream(jsonname));
+        hashMap.entrySet().forEach(entry -> {
+            documentContext.set(entry.getKey(), entry.getValue());
+        });
+        return documentContext.jsonString();
+    }
 
 }

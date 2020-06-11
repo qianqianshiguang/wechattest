@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
+import static com.testerhome.hgwz.contact.Contact.random;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
@@ -16,7 +17,7 @@ import static org.hamcrest.Matchers.equalTo;
  */
 class DepartmentTest {
     Department department;
-    String random = String.valueOf(System.currentTimeMillis());
+//    String random = String.valueOf(System.currentTimeMillis());
     @BeforeEach
     void setUp() {
         if (department == null) {
