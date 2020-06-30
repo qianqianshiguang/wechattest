@@ -7,9 +7,9 @@ import static org.hamcrest.Matchers.*;
 /**
  * @author: gq
  * @createtime: 2020/6/5 8:22 下午
- * @description: TODO
+ * @description:
  */
-public class TestGetToken {
+public class GetTokenTest {
     @Test
     public void testToken() {
         Wechat wechat = new Wechat();

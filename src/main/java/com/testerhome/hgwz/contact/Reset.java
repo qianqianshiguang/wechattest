@@ -1,5 +1,4 @@
 package com.testerhome.hgwz.contact;
-
 import com.testerhome.hgwz.wechat.Restful;
 import com.testerhome.hgwz.wechat.Wechat;
 import io.restassured.http.ContentType;
@@ -9,13 +8,11 @@ import io.restassured.http.ContentType;
  * @createtime: 2020/6/9 11:50 上午
  * @description: TODO
  */
-public class Contact extends Restful {
-    static String random = String.valueOf(System.currentTimeMillis());
-    public void contact() {
-        reset();
-    }
+public class Reset extends Restful {
+
     public void reset() {
-        requestSpecification.log().all()
+
+        requestSpecification.given().log().all()
                 .queryParam("access_token", Wechat.getToken())
                 .contentType(ContentType.JSON)
                 .then().log().all().statusCode(200);
