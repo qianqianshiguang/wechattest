@@ -15,7 +15,7 @@ public class Contact extends Restful {
         reset();
     }
     public void reset() {
-        requestSpecification.log().all()
+        this.requestSpecification.log().all()
                 .queryParam("access_token", Wechat.getToken())
                 .contentType(ContentType.JSON)
                 .then().log().all().statusCode(200);

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="create用hashmap方式传参">
+      <change afterPath="$PROJECT_DIR$/ajcore.20200706.201559.339.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10d5801b-ab61-4f43-b1cb-7cafc560d1dc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2f58d3a4-53e4-45b1-a1c5-2074b8af3b86-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/4ed9553f-bda4-4e79-be93-bf31a4d2d21b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6a846e3a-c18d-4806-877a-df9be9bd8baa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6ff39d54-2bce-4f7b-960e-e7dad6ab813a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7c155e68-cf95-410d-8dba-e9167f655b47-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e3e73f26-2c77-4826-bf6a-884796732e1c-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/eb2b445e-e1e3-42e3-9df4-c7c45377f613-container.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hgwzTesthome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hgwzTesthome.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.UserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.UserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.UserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.UserTest.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cttGxA03ZURDsytGlEZVG1zcTP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.testerhome.hgwz.wechat" />
+      <recent name="com.testerhome.hgwz.contact" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.testerhome.hgwz.contact" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DepartmentTest">
+    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentTest.updateMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
+      <option name="METHOD_NAME" value="updateMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.create (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.UserTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DepartmentTest" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.DepartmentTest.update" />
+        <item itemvalue="JUnit.DepartmentTest.updateMap" />
+        <item itemvalue="JUnit.UserTest.create (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="" />
+      <created>1591359625099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591359625099</updated>
+      <workItem from="1591359626746" duration="103780000" />
+      <workItem from="1593565585570" duration="1155000" />
+      <workItem from="1593568437884" duration="16140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create用hashmap方式传参" />
+    <option name="LAST_COMMIT_MESSAGE" value="create用hashmap方式传参" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Inspections" timestamp="1593513057082">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1593513057082" />
+    <state x="640" y="231" key="#Project_Structure" timestamp="1591585529102">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="640" y="231" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1591585529102" />
+    <state x="0" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592377154418">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1592377154418" />
+    <state x="569" y="368" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593568621911">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="569" y="368" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1593568621911" />
+    <state x="965" y="624" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591933790699">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="965" y="624" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1591933790699" />
+    <state x="482" y="172" key="#xdebugger.evaluate" timestamp="1591930951687">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="482" y="172" key="#xdebugger.evaluate/0.23.1440.877@0.23.1440.877" timestamp="1591930951687" />
+    <state x="321" y="81" key="CommitChangelistDialog2" timestamp="1591771228535">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="321" y="81" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1591771228535" />
+    <state width="408" height="466" key="DebuggerActiveHint" timestamp="1591931031096">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="408" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1591931031096" />
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom" timestamp="1593920472614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
+    <state width="1932" height="276" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593787746885" />
+    <state width="1398" height="293" key="GridCell.Tab.0.center" timestamp="1593920472613">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
+    <state width="1932" height="276" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593787746884" />
+    <state width="1398" height="293" key="GridCell.Tab.0.left" timestamp="1593920472613">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
+    <state width="1932" height="276" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593787746883" />
+    <state width="1398" height="293" key="GridCell.Tab.0.right" timestamp="1593920472614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
+    <state width="1932" height="276" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593787746884" />
+    <state width="1369" height="285" key="GridCell.Tab.1.bottom" timestamp="1593565579474">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593565579474" />
+    <state width="1369" height="285" key="GridCell.Tab.1.center" timestamp="1593565579473">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1593565579473" />
+    <state width="1369" height="285" key="GridCell.Tab.1.left" timestamp="1593565579473">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1593565579473" />
+    <state width="1369" height="285" key="GridCell.Tab.1.right" timestamp="1593565579474">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1369" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1593565579474" />
+    <state x="195" y="224" key="Maven.ArtifactSearchDialog" timestamp="1593572784531">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="195" y="224" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1593572784531" />
+    <state x="313" y="137" key="SettingsEditor" timestamp="1593765294848">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="313" y="137" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1593765294848" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1593510893924">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1593510893924" />
+    <state x="0" y="144" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591772489112">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="144" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1591772489112" />
+    <state x="521" y="402" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591706202839">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="521" y="402" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1591706202839" />
+    <state x="346" y="368" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593573480349">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="346" y="368" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877@0.23.1440.877" timestamp="1593573480349" />
+    <state x="269" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591929967141">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="269" y="204" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877@0.23.1440.877" timestamp="1591929967141" />
+    <state x="0" y="420" key="extract.method.dialog" timestamp="1591877661014">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="420" key="extract.method.dialog/0.23.1440.877@0.23.1440.877" timestamp="1591877661014" />
+    <state x="97" y="159" key="new project wizard" timestamp="1592885414066">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="97" y="159" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1592885414066" />
+    <state x="426" y="84" key="refactoring.ChangeSignatureDialog" timestamp="1591927625602">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="426" y="84" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1591927625602" />
+    <state x="334" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1591609795969">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="334" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1591609795969" />
+  </component>
+</project>

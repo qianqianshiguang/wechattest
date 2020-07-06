@@ -10,7 +10,7 @@ import java.util.HashMap;
 /**
  * @author: gq
  * @createtime: 2020/6/8 10:24 上午
- * @description: TODO
+ * @description: 部门
  */
 public class Department extends Contact{
 
@@ -54,6 +54,16 @@ public class Department extends Contact{
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/delete")
                 .then().extract().response();
         return response;
+    }
+
+    public void deleteAll() {
+        contact();
+        String id = requestSpecification
+                .param("")
+                .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list")
+                .path("id").toString();
+        String[] ids = id.split(",");
+
     }
 
     public Response update(String id, String name) {

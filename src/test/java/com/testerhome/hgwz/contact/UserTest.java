@@ -1,7 +1,7 @@
 package com.testerhome.hgwz.contact;
 
+
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -16,8 +16,8 @@ import static org.hamcrest.Matchers.equalTo;
  * @createtime: 2020/6/10 4:25 下午
  * @description: TODO
  */
-class UserTest {
-    User user;
+public class UserTest {
+    public User user;
 
     @BeforeEach
     void setUp() {
@@ -28,13 +28,12 @@ class UserTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"wang", "li", "xiao"})
-//    @Test
     void create(String name) {
 
         String nameNew = name + random;
         String ran = String.valueOf(System.currentTimeMillis()).substring(5 + 0, 5 + 8);
         String url = "https://qyapi.weixin.qq.com/cgi-bin/user/create";
-        HashMap<String, Object> hashMap = new HashMap<>();
+        HashMap<String, Object> hashMap = new HashMap<String, Object>();
         hashMap.put("userid", nameNew);
         hashMap.put("name", nameNew);
         hashMap.put("mobile", "" + "151" + ran);

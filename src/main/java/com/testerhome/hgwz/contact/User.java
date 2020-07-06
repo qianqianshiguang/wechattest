@@ -8,7 +8,7 @@ import java.util.HashMap;
 /**
  * @author: gq
  * @createtime: 2020/6/8 10:39 上午
- * @description: TODO
+ * @description: 用户
  */
 public class User extends Contact{
     public Response create(String url, HashMap<String, Object> hashMap) {

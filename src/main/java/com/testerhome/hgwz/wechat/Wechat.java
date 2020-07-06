@@ -14,7 +14,7 @@ public class Wechat {
     public static String getWechatToken() {
         return RestAssured.given()
                 .queryParam("corpid", WechatConfig.getInstance().corpid)
-                .queryParam("corpsecret", WechatConfig.getInstance().contactSecert)
+                .queryParam("corpsecret", WechatConfig.getInstance().contactSecret)
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/gettoken")
                 .then()
                 .statusCode(200)
