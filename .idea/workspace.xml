@@ -2,24 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="create用hashmap方式传参">
-      <change afterPath="$PROJECT_DIR$/ajcore.20200706.201559.339.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/10d5801b-ab61-4f43-b1cb-7cafc560d1dc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2f58d3a4-53e4-45b1-a1c5-2074b8af3b86-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4ed9553f-bda4-4e79-be93-bf31a4d2d21b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6a846e3a-c18d-4806-877a-df9be9bd8baa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6ff39d54-2bce-4f7b-960e-e7dad6ab813a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7c155e68-cf95-410d-8dba-e9167f655b47-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e3e73f26-2c77-4826-bf6a-884796732e1c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb2b445e-e1e3-42e3-9df4-c7c45377f613-container.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajcore.20200706.202913.268.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/24d99e11-612a-43a7-b4e2-e79061ccb59e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/566243b8-a31d-4fed-868a-34fb8ba188f3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/67a7b6c5-b9c9-4044-b2ea-1bc1a5e92729-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7b7fe15c-c787-4d25-a2b6-80e92c5c386a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ceead7bb-d052-4b11-a763-49eedcc7f645-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d5cd8747-56cc-4c56-ba90-96c12c82ca16-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e0167bfa-9f4e-4448-adcb-38d534aaac8c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e917fc55-5788-4004-9c13-b58872659a74-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hgwzTesthome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hgwzTesthome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.UserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.UserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.UserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.UserTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.DepartmentTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.testerhome.hgwz.contact.UserTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.DepartmentTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.testerhome.hgwz.contact.UserTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +238,7 @@
       <updated>1591359625099</updated>
       <workItem from="1591359626746" duration="103780000" />
       <workItem from="1593565585570" duration="1155000" />
-      <workItem from="1593568437884" duration="16140000" />
+      <workItem from="1593568437884" duration="20528000" />
     </task>
     <servers />
   </component>
