@@ -8,7 +8,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 import java.util.Arrays;
 import java.util.HashMap;
 
-import static com.testerhome.hgwz.contact.Contact.random;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
@@ -18,12 +17,13 @@ import static org.hamcrest.Matchers.equalTo;
  */
 public class UserTest {
     public User user;
-
+    String random;
     @BeforeEach
     void setUp() {
         if (user == null) {
             user = new User();
         }
+        random = String.valueOf(System.currentTimeMillis()).substring(5 + 0, 5 + 8);
     }
 
     @ParameterizedTest
@@ -31,14 +31,13 @@ public class UserTest {
     void create(String name) {
 
         String nameNew = name + random;
-        String ran = String.valueOf(System.currentTimeMillis()).substring(5 + 0, 5 + 8);
         String url = "https://qyapi.weixin.qq.com/cgi-bin/user/create";
         HashMap<String, Object> hashMap = new HashMap<String, Object>();
         hashMap.put("userid", nameNew);
         hashMap.put("name", nameNew);
-        hashMap.put("mobile", "" + "151" + ran);
+        hashMap.put("mobile", "" + "151" + random);
         hashMap.put("department", Arrays.asList(1, 2));
-        hashMap.put("email", ran + "@qq.com");
+        hashMap.put("email", random + "@qq.com");
         user.create(url, hashMap).then().statusCode(200).body("errcode", equalTo(0));
 
     }

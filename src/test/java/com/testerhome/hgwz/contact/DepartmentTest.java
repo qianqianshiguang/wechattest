@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
 
-import static com.testerhome.hgwz.contact.Contact.random;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
@@ -15,12 +14,13 @@ import static org.hamcrest.Matchers.equalTo;
  */
 public class DepartmentTest {
     Department department;
-
+    String random;
     @BeforeEach
     public void setUp() {
         if (department == null) {
             department = new Department();
         }
+        random = String.valueOf(System.currentTimeMillis()).substring(5 + 0, 5 + 8);
     }
     @Test
     public void list() {
