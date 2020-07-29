@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.testerhome.hgwz.contact.DepartmentTest" time="6.138" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.testerhome.hgwz.contact.DepartmentTest" time="6.646" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,13 +17,14 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/apple/IdeaProjects/hgwzTesthome/target/surefire/surefirebooter6854961757350792108.jar /Users/apple/IdeaProjects/hgwzTesthome/target/surefire 2020-07-08T10-32-35_192-jvmRun1 surefire7725187564204410408tmp surefire_05205186695992140266tmp"/>
+    <property name="sun.java.command" value="/Users/apple/IdeaProjects/hgwzTesthome/target/surefire/surefirebooter7664759463619659155.jar /Users/apple/IdeaProjects/hgwzTesthome/target/surefire 2020-07-08T11-16-25_021-jvmRun1 surefire7826602517534349290tmp surefire_08724100059904919751tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/apple/IdeaProjects/hgwzTesthome/target/test-classes:/Users/apple/IdeaProjects/hgwzTesthome/target/classes:/Users/apple/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/Users/apple/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/Users/apple/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/Users/apple/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/apple/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/apple/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/apple/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/apple/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/apple/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/apple/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/apple/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/Users/apple/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/Users/apple/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/Users/apple/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/Users/apple/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/apple/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/apple/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/apple/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/apple/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/apple/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar:/Users/apple/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/apple/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/Users/apple/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/Users/apple/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/Users/apple/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/Users/apple/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0-M1/junit-jupiter-5.7.0-M1.jar:/Users/apple/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0-M1/junit-jupiter-api-5.7.0-M1.jar:/Users/apple/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/apple/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/apple/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0-M1/junit-platform-commons-1.7.0-M1.jar:/Users/apple/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0-M1/junit-jupiter-params-5.7.0-M1.jar:/Users/apple/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0-M1/junit-jupiter-engine-5.7.0-M1.jar:/Users/apple/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0-M1/junit-platform-engine-1.7.0-M1.jar:/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar:/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar:/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar:/Users/apple/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.11.1/jackson-dataformat-yaml-2.11.1.jar:/Users/apple/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/apple/.m2/repository/io/qameta/allure/allure-junit5/2.13.5/allure-junit5-2.13.5.jar:/Users/apple/.m2/repository/io/qameta/allure/allure-junit-platform/2.13.5/allure-junit-platform-2.13.5.jar:/Users/apple/.m2/repository/io/qameta/allure/allure-java-commons/2.13.5/allure-java-commons-2.13.5.jar:/Users/apple/.m2/repository/io/qameta/allure/allure-model/2.13.5/allure-model-2.13.5.jar:/Users/apple/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/apple/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/apple/.m2/repository/org/junit/platform/junit-platform-launcher/1.5.2/junit-platform-launcher-1.5.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/apple"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="generateReports" value="false"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
     <property name="basedir" value="/Users/apple/IdeaProjects/hgwzTesthome"/>
     <property name="file.separator" value="/"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/apple/IdeaProjects/hgwzTesthome/target/surefire/surefirebooter6854961757350792108.jar:/Users/apple/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="/Users/apple/IdeaProjects/hgwzTesthome/target/surefire/surefirebooter7664759463619659155.jar:/Users/apple/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,11 +63,11 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="updateMap" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.798"/>
-  <testcase name="create" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.415"/>
-  <testcase name="delete" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.789"/>
-  <testcase name="update" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.195"/>
-  <testcase name="list" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.426"/>
-  <testcase name="createMap" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.365"/>
-  <testcase name="createExisted" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.131"/>
+  <testcase name="updateMap" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.967"/>
+  <testcase name="create" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.51"/>
+  <testcase name="delete" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.888"/>
+  <testcase name="update" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.072"/>
+  <testcase name="list" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.366"/>
+  <testcase name="createMap" classname="com.testerhome.hgwz.contact.DepartmentTest" time="0.367"/>
+  <testcase name="createExisted" classname="com.testerhome.hgwz.contact.DepartmentTest" time="1.059"/>
 </testsuite>

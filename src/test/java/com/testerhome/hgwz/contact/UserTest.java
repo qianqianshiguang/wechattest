@@ -35,7 +35,7 @@ public class UserTest {
         HashMap<String, Object> hashMap = new HashMap<String, Object>();
         hashMap.put("userid", nameNew);
         hashMap.put("name", nameNew);
-        hashMap.put("mobile", "" + "151" + random);
+        hashMap.put("mobile", "" + "148" + random);
         hashMap.put("department", Arrays.asList(1, 2));
         hashMap.put("email", random + "@qq.com");
         user.create(url, hashMap).then().statusCode(200).body("errcode", equalTo(0));

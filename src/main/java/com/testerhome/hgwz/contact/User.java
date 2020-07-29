@@ -1,6 +1,6 @@
 package com.testerhome.hgwz.contact;
 
-import com.testerhome.hgwz.wechat.Restful;
+import com.testerhome.hgwz.wechat.Api;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
@@ -12,7 +12,7 @@ import java.util.HashMap;
  */
 public class User extends Contact{
     public Response create(String url, HashMap<String, Object> hashMap) {
-        String body = Restful.template("/data/user.json", hashMap);
+        String body = Api.template("/data/user.json", hashMap);
         contact();
         Response response = requestSpecification
                 .body(body).when().post(url)

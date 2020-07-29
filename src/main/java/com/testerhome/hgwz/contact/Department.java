@@ -2,9 +2,12 @@ package com.testerhome.hgwz.contact;
 
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
+import com.testerhome.hgwz.wechat.Wechat;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
+import java.util.List;
 
 
 /**
@@ -21,6 +24,10 @@ public class Department extends Contact{
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list")
                 .then().extract().response();
         return response;
+//        reset();
+//        HashMap<String, Object> hashMap = new HashMap<String, Object>();
+//        hashMap.put("id", id);
+//        return templateFromYaml("/api/list.yaml",hashMap);
     }
 
     public Response create(String name,String parentid) {
@@ -56,14 +63,13 @@ public class Department extends Contact{
         return response;
     }
 
-    public void deleteAll() {
+    public Response deleteAll() {
         contact();
-        String id = requestSpecification
-                .param("")
-                .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/list")
-                .path("id").toString();
-        String[] ids = id.split(",");
-
+        List<Integer> idList = list("").then().log().all().extract().path("department.id");
+        idList.forEach(id->{
+            delete(id.toString());
+        });
+        return null;
     }
 
     public Response update(String id, String name) {

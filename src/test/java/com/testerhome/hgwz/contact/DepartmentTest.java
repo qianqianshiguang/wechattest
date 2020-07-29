@@ -19,6 +19,7 @@ public class DepartmentTest {
     public void setUp() {
         if (department == null) {
             department = new Department();
+//            department.deleteAll();
         }
         random = String.valueOf(System.currentTimeMillis()).substring(5 + 0, 5 + 8);
     }
@@ -83,9 +84,9 @@ public class DepartmentTest {
         department.delete(id);
     }
 
-//    @Test
-//    public void deleteAll() {
-//        department.deleteAll();
-//
-//    }
+    @Test
+    public void deleteAll() {
+        department.deleteAll();
+
+    }
 }
