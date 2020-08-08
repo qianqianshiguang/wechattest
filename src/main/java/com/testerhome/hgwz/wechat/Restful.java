@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * @author: gq
  * @createtime: 2020/7/27 4:51 下午
- * @description: TODO
+ * @description: 定义接口数据
  */
 public class Restful {
     public String url;

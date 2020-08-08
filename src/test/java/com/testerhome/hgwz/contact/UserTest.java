@@ -1,6 +1,5 @@
 package com.testerhome.hgwz.contact;
 
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

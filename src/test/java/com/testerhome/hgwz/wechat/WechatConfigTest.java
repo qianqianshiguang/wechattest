@@ -12,7 +12,7 @@ public class WechatConfigTest {
 
     @Test
     public void load() {
-        WechatConfig.load("");
+        WechatConfig.load("/config/wechatConfig.yaml");
     }
 
     @Test

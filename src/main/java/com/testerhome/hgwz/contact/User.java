@@ -10,11 +10,10 @@ import java.util.HashMap;
  * @createtime: 2020/6/8 10:39 上午
  * @description: 用户
  */
-public class User extends Contact{
+public class User extends Api{
     public Response create(String url, HashMap<String, Object> hashMap) {
         String body = Api.template("/data/user.json", hashMap);
-        contact();
-        Response response = requestSpecification
+        Response response = getDefaultRequestSpecification()
                 .body(body).when().post(url)
                 .then().extract().response();
         return response;
