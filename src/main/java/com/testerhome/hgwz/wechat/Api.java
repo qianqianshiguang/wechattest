@@ -49,6 +49,7 @@ public class Api {
 
     public Response templateFromSwagger(String path, String pattern, HashMap<String, Object> hashMap) {
         //todo:支持从swagger文件读取接口定义并发送
+        //todo: 分析swagger codegen
         //从swagger中读取请求，进行更新
         DocumentContext documentContext = JsonPath.parse(Api.class.getResourceAsStream(path));
         hashMap.entrySet().forEach(entry -> {
@@ -89,6 +90,7 @@ public class Api {
             if (restful.body != null) {
                 requestSpecification.body(restful.body);
             }
+            //todo:多环境支持，替换url，更新host的header
 
             return requestSpecification.
                     request(restful.method, restful.url).then().log().all().extract().response();
@@ -97,6 +99,12 @@ public class Api {
             e.printStackTrace();
             return null;
         }
+    }
+    //todo:支持wsdl soap
+
+    public Response resdApiFromYaml(String path, HashMap<String, Object> hashMap) {
+        //todo:动态调用
+        return null;
     }
 
 
