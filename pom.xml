@@ -10,8 +10,8 @@
 
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.locations.enabled>false</dependency.locations.enabled>
     </properties>
@@ -50,12 +50,6 @@
             <version>2.11.1</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>io.qameta.allure</groupId>-->
-<!--            <artifactId>allure-junit5</artifactId>-->
-<!--            <version>RELEASE</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-junit5</artifactId>
@@ -63,14 +57,13 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.aspectj</groupId>-->
+<!--            <artifactId>aspectjweaver</artifactId>-->
+<!--            <version>${aspectj.version}</version>-->
+<!--        </dependency>-->
 
     </dependencies>
-
 
     <build>
         <plugins>
@@ -80,24 +73,20 @@
                 <version>2.21.0</version>
                 <configuration>
                     <!--测试失败后，是否忽略并继续测试-->
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <!--设置参数命令行-->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-<!--                    <systemPropertyVariables>-->
-<!--                        &lt;!&ndash;是否忽略html，解释见下图。与之后在reportNg报告上显示截图相关。当前已经使用allure了，这里可以直接去掉啦&ndash;&gt;-->
-<!--                        <org.uncommons.reportng.escape-output>false</org.uncommons.reportng.escape-output>-->
-<!--                    </systemPropertyVariables>-->
                     <systemProperties>
                         <property>
                             <name>junit.jupiter.extensions.autodetection.enabled</name>
                             <value>true</value>
                         </property>
                     </systemProperties>
-                    <argLine>
-                        -Dfile.encoding=UTF-8
-                    </argLine>
+<!--                    <argLine>-->
+<!--                        -Dfile.encoding=UTF-8-->
+<!--                    </argLine>-->
 <!--                    <suiteXmlFiles>-->
 <!--                        &lt;!&ndash;代表的是要执行的测试套件名称&ndash;&gt;-->
 <!--                        <suiteXmlFile>src/test/resources/testNG.xml</suiteXmlFile>-->
@@ -112,7 +101,7 @@
                     <dependency>
                         <groupId>org.aspectj</groupId>
                         <artifactId>aspectjweaver</artifactId>
-                        <version>${aspectj.version}</version>
+                        <version>RELEASE</version>
                     </dependency>
                 </dependencies>
             </plugin>
