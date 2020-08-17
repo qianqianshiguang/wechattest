@@ -297,7 +297,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest">
+  <component name="RunManager" selected="JUnit.ApiTest.templateFromYaml">
+    <configuration name="ApiTest.templateFromYaml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hgwzTesthome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testerhome.hgwz.wechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.wechat" />
+      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.wechat.ApiTest" />
+      <option name="METHOD_NAME" value="templateFromYaml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hgwzTesthome" />
       <extension name="coverage">
@@ -309,22 +325,6 @@
       <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
       <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hgwzTesthome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
-      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -379,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.templateFromYaml" />
         <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.DepartmentTest.createMap" />
         <item itemvalue="JUnit.DepartmentTest.deleteAll" />
         <item itemvalue="JUnit.DepartmentTest.list" />
-        <item itemvalue="JUnit.DepartmentTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +403,7 @@
       <workItem from="1594174867167" duration="5489000" />
       <workItem from="1594195133276" duration="152000" />
       <workItem from="1594195499409" duration="43359000" />
-      <workItem from="1597645491072" duration="2015000" />
+      <workItem from="1597645491072" duration="2513000" />
     </task>
     <servers />
   </component>
@@ -456,26 +456,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="408" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1591931031096" />
-    <state width="1398" height="30" key="GridCell.Tab.0.bottom" timestamp="1597655976272">
+    <state width="1398" height="565" key="GridCell.Tab.0.bottom" timestamp="1597657031393">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="30" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597655976272" />
-    <state width="1398" height="30" key="GridCell.Tab.0.center" timestamp="1597655976271">
+    <state width="1398" height="565" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597657031393" />
+    <state width="1398" height="565" key="GridCell.Tab.0.center" timestamp="1597657031392">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="30" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597655976271" />
-    <state width="1398" height="30" key="GridCell.Tab.0.left" timestamp="1597655976270">
+    <state width="1398" height="565" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597657031392" />
+    <state width="1398" height="565" key="GridCell.Tab.0.left" timestamp="1597657031392">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="30" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597655976270" />
-    <state width="1398" height="30" key="GridCell.Tab.0.right" timestamp="1597655976271">
+    <state width="1398" height="565" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597657031392" />
+    <state width="1398" height="565" key="GridCell.Tab.0.right" timestamp="1597657031393">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="30" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597655976271" />
+    <state width="1398" height="565" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597657031393" />
     <state width="1398" height="361" key="GridCell.Tab.1.bottom" timestamp="1597553756306">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
