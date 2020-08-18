@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="create用hashmap方式传参">
-      <change afterPath="$PROJECT_DIR$/ajcore.20200818.093330.447.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajcore.20200818.094444.918.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/05fb5e78-a89f-423f-8d90-9577fa55ffda-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/06923965-c7f6-485f-9651-5f2a0b82969b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0c1cde05-601a-4662-8884-8b2bd3c42775-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/13866b28-f904-4b1a-b383-b1233fd6de79-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/20a7e793-d67a-48d9-b236-0169f4ec7773-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/28d1c699-a0e4-46c3-a1a4-04a65cf9f3bb-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/30a09bb6-ad75-42be-ba83-d88b0883968b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/312f8b03-7a7d-456c-9fd9-3e21e932a53f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/392a8156-ef64-45e6-b321-9cb9009f3800-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3c396d14-d4fd-4503-b608-5b6bcb7aa6c3-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4577dfbc-846b-423d-8c44-5efd00f6ff2a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5acc98eb-33ef-47c1-bb61-3c40e26a54d7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5e5ff1bd-3554-47aa-a528-74b7e0b78466-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/61124567-7326-4b6d-ac07-8d7a9cd0bc03-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6136d726-b1ba-48f5-b358-44210975621e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/62653dff-0c7b-4447-975c-36190fee4100-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/658963fa-a14e-41b0-9c74-7ab3afd5aad0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/72c42f91-7128-4c40-b95a-26687e6681c9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7904a119-9a2b-4296-a8cc-8edb7f6e6ee8-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7da034b0-fa90-4077-ab1b-84e18c9dc5fe-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7eb58e24-864c-4165-9fbd-50f2ef682ee8-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7f96a67a-9684-4353-a0a2-53c29968b071-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8684fa69-d4ce-4a00-800c-364a8a16220f-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8909d1f4-5611-4a10-8676-94a8f4c3c071-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/90120255-d16f-4435-b425-97ba1f25ba79-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/95a096dc-1398-4807-9ec2-b06d66f27b90-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9929026b-1a5d-4e4a-b385-00db877c8e8b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a0cd49a3-d17c-410e-8290-a5ee9da50b3e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c4d778c5-4e47-460c-b48d-dd70bf419163-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/da1a3610-fa85-4f30-9df6-14ad04e60556-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e1ab6cf4-55ac-44d2-839b-aadce57e66c0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e3965bbd-5c4c-4747-8d8c-60b72b126a8a-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e4c5171c-9b9f-4147-94b9-683400292886-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e642d4ab-32ad-407e-90d8-1e6775a2ebaa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb00bc97-aa8a-4097-871c-6855ea009c71-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/eb8d08c2-3b11-46d6-a9a5-63b00184c28e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f5f9ac0e-8c24-4523-aad3-a9ae5315a7e2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fa521b36-a9f3-4312-8d33-84a2c4226c12-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DingPush.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGetToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testerhome/hgwz/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testerhome/hgwz/contact/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testerhome/hgwz/contact/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testerhome/hgwz/contact/UserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,7 +102,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest">
+  <component name="RunManager" selected="Application.DingPush">
+    <configuration name="DingPush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DingPush" />
+      <module name="hgwzTesthome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTest.templateFromYaml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hgwzTesthome" />
       <extension name="coverage">
@@ -209,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hgwzTesthome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testerhome.hgwz.contact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testerhome.hgwz.contact" />
-      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="list" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DingPush" />
         <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.ApiTest.templateFromYaml" />
         <item itemvalue="JUnit.DepartmentTest.createMap" />
         <item itemvalue="JUnit.DepartmentTest.deleteAll" />
-        <item itemvalue="JUnit.DepartmentTest.list" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +199,7 @@
       <workItem from="1594174867167" duration="5489000" />
       <workItem from="1594195133276" duration="152000" />
       <workItem from="1594195499409" duration="43359000" />
-      <workItem from="1597645491072" duration="9775000" />
+      <workItem from="1597645491072" duration="13224000" />
     </task>
     <servers />
   </component>
@@ -304,26 +252,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="408" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1591931031096" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom" timestamp="1597715080375">
+    <state width="1398" height="335" key="GridCell.Tab.0.bottom" timestamp="1597758486525">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597715080375" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center" timestamp="1597715080374">
+    <state width="1398" height="335" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597758486525" />
+    <state width="1398" height="335" key="GridCell.Tab.0.center" timestamp="1597758486522">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597715080374" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left" timestamp="1597715080374">
+    <state width="1398" height="335" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597758486522" />
+    <state width="1398" height="335" key="GridCell.Tab.0.left" timestamp="1597758486521">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597715080374" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right" timestamp="1597715080375">
+    <state width="1398" height="335" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597758486521" />
+    <state width="1398" height="335" key="GridCell.Tab.0.right" timestamp="1597758486524">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597715080375" />
+    <state width="1398" height="335" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597758486524" />
     <state width="1398" height="361" key="GridCell.Tab.1.bottom" timestamp="1597553756306">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
