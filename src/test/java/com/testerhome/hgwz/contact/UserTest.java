@@ -1,6 +1,7 @@
 package com.testerhome.hgwz.contact;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -27,6 +28,7 @@ public class UserTest {
 
     @ParameterizedTest
     @ValueSource(strings = {"wang", "li", "xiao"})
+    @DisplayName("创建用户")
     void create(String name) {
 
         String nameNew = name + random;
