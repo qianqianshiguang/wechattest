@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="create用hashmap方式传参">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DingPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testerhome/hgwz/wechat/DingPush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DingPush.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/testerhome/hgwz/wechat/DingPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testerhome/hgwz/wechat/DingPush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testerhome/hgwz/wechat/DingPush.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testerhome/hgwz/wechat/DingPush.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
   </component>
   <component name="RunManager" selected="Application.DingPush">
     <configuration name="DingPush" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testerhome.hgwz.wechat.DingPush" />
+      <option name="MAIN_CLASS_NAME" value="DingPush" />
       <module name="hgwzTesthome" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +119,7 @@
       <module name="hgwzTesthome" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.testerhome.hgwz.wechat.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,7 +205,7 @@
       <workItem from="1594195133276" duration="152000" />
       <workItem from="1594195499409" duration="43359000" />
       <workItem from="1597645491072" duration="13224000" />
-      <workItem from="1597805720667" duration="3411000" />
+      <workItem from="1597805720667" duration="6684000" />
     </task>
     <servers />
   </component>
@@ -240,10 +238,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="569" y="368" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.877@0.23.1440.877" timestamp="1593568621911" />
-    <state x="965" y="624" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591933790699">
+    <state x="675" y="560" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597832569792">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="965" y="624" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1591933790699" />
+    <state x="675" y="560" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1597832569792" />
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596542706963">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -260,42 +258,42 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="408" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1591931031096" />
-    <state width="1398" height="147" key="GridCell.Tab.0.bottom" timestamp="1597828941741">
+    <state width="1398" height="393" key="GridCell.Tab.0.bottom" timestamp="1597832528075">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="147" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597828941741" />
-    <state width="1398" height="147" key="GridCell.Tab.0.center" timestamp="1597828941740">
+    <state width="1398" height="393" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597832528075" />
+    <state width="1398" height="393" key="GridCell.Tab.0.center" timestamp="1597832528074">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="147" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597828941740" />
-    <state width="1398" height="147" key="GridCell.Tab.0.left" timestamp="1597828941740">
+    <state width="1398" height="393" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597832528074" />
+    <state width="1398" height="393" key="GridCell.Tab.0.left" timestamp="1597832528074">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593920472613" />
-    <state width="1398" height="147" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597828941740" />
-    <state width="1398" height="147" key="GridCell.Tab.0.right" timestamp="1597828941741">
+    <state width="1398" height="393" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597832528074" />
+    <state width="1398" height="393" key="GridCell.Tab.0.right" timestamp="1597832528075">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="293" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593920472614" />
-    <state width="1398" height="147" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597828941741" />
-    <state width="1398" height="361" key="GridCell.Tab.1.bottom" timestamp="1597553756306">
+    <state width="1398" height="393" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597832528075" />
+    <state width="1398" height="361" key="GridCell.Tab.1.bottom" timestamp="1597831390612">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="361" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597553756306" />
-    <state width="1398" height="361" key="GridCell.Tab.1.center" timestamp="1597553756306">
+    <state width="1398" height="361" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597831390612" />
+    <state width="1398" height="361" key="GridCell.Tab.1.center" timestamp="1597831390611">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="361" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1597553756306" />
-    <state width="1398" height="361" key="GridCell.Tab.1.left" timestamp="1597553756305">
+    <state width="1398" height="361" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1597831390611" />
+    <state width="1398" height="361" key="GridCell.Tab.1.left" timestamp="1597831390611">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="361" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1597553756305" />
-    <state width="1398" height="361" key="GridCell.Tab.1.right" timestamp="1597553756306">
+    <state width="1398" height="361" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1597831390611" />
+    <state width="1398" height="361" key="GridCell.Tab.1.right" timestamp="1597831390611">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="361" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1597553756306" />
+    <state width="1398" height="361" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1597831390611" />
     <state x="195" y="224" key="Maven.ArtifactSearchDialog" timestamp="1597713812588">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

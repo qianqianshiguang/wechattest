@@ -148,7 +148,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.testerhome.hgwz.wechat.DingPush</mainClass>
+                    <mainClass>DingPush</mainClass>
                 </configuration>
             </plugin>
         </plugins>
