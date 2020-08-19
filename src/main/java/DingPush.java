@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * @author: gq
@@ -15,6 +16,7 @@ public class DingPush {
     static String token_url = "https://oapi.dingtalk.com/robot/send?access_token=6d5889e8f4f4184b207ec2b1ed4bdafe423ba391b76287bf224741c403bd9034"; //钉钉的自定义机器人，webhook值
     static String jobname = "WechatTest";
 
+    static String cookie = "screenResolution=1440x900; " + getCookie();//获取Jenkins cookie
     static String lastnum = getLastBuildNum();//该job最后一个构建号
 
     public static void main(String[] args) {
@@ -44,7 +46,7 @@ public class DingPush {
                 .statusCode(200)
                 .extract().response();
     }
-
+//
 
     /*
         return:ArrayList包含所有运行状态
@@ -52,7 +54,7 @@ public class DingPush {
     public ArrayList<String> testStatus() {
         ArrayList arrayList = new ArrayList();
         Response response = given()
-//                .cookie("screenResolution=1440x900; jenkins-timestamper-offset=-28800000; JSESSIONID.877338c5=node04jlzmyij8nomqluegyccyn6423.node0; JSESSIONID.d2f68551=node0zter0mdo5hrr17o7v0icuuqs31.node0; JSESSIONID.d2d75a68=node01t9vdwng9cad22a1d1xvitz551.node0; JSESSIONID.e15df850=node014379dpzkes6d184z445vfxmhs1.node0; JSESSIONID.34982c1d=node0kd2kggeon83k1f58qzcnrmfov1.node0; JSESSIONID.929f55bf=node0eaza778qwzwv1s7nswbgzmzdh1.node0; JSESSIONID.346abbce=node0172fnpys6amya1rohssbax6gcp1.node0; JSESSIONID.92817d9a=node013muzf2d2qu5p6pzkuhw34now1.node0; JSESSIONID.c68ae225=node02oz8b6mj0qye1jtg5ou0st6t130.node0")
+                .cookie(cookie)
                 .when().get("http://localhost:8888/job/" + jobname + "/" + lastnum + "/allure/widgets/summary.json")
                 .then()//.log().all()
                 .statusCode(200)
@@ -78,7 +80,7 @@ public class DingPush {
     public static String getLastBuildNum() {
         Response response = given()
                 .contentType(ContentType.JSON)
-//                .cookie("screenResolution=1440x900; jenkins-timestamper-offset=-28800000; JSESSIONID.877338c5=node04jlzmyij8nomqluegyccyn6423.node0; JSESSIONID.d2f68551=node0zter0mdo5hrr17o7v0icuuqs31.node0; JSESSIONID.d2d75a68=node01t9vdwng9cad22a1d1xvitz551.node0; JSESSIONID.e15df850=node014379dpzkes6d184z445vfxmhs1.node0; JSESSIONID.34982c1d=node0kd2kggeon83k1f58qzcnrmfov1.node0; JSESSIONID.929f55bf=node0eaza778qwzwv1s7nswbgzmzdh1.node0; JSESSIONID.346abbce=node0172fnpys6amya1rohssbax6gcp1.node0; JSESSIONID.92817d9a=node013muzf2d2qu5p6pzkuhw34now1.node0; JSESSIONID.c68ae225=node02oz8b6mj0qye1jtg5ou0st6t130.node0")
+                .cookie(cookie)
                 .queryParam("pretty", "true")
                 .when().get("http://localhost:8888/job/" + jobname + "/api/json")
                 .then()//.log().all()
@@ -86,6 +88,25 @@ public class DingPush {
                 .extract().response();
         String lastnum = response.jsonPath().getString("builds.number[0]");
         return lastnum;
+    }
+
+    public static String getCookie() {
+        Response response = given()
+                .contentType(ContentType.JSON)
+                .queryParam("j_username", "root")
+                .queryParam("j_password", "love3224")
+                .when().post("http://127.0.0.1:8888/j_acegi_security_check")
+                .then()//.log().all()
+                .extract().response();
+        Map<String, String> allCookies = response.getCookies();
+        ArrayList<String> list = new ArrayList<String>();
+        allCookies.entrySet().forEach(entry -> {
+            list.add(entry.getKey() + "=" + entry.getValue());
+        });
+        String cookie = list.get(0);
+        System.out.println(cookie);
+        return cookie;
+
     }
 }
 
