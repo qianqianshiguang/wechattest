@@ -1,5 +1,6 @@
 com/testerhome/hgwz/wechat/Restful.class
 com/testerhome/hgwz/contact/List.class
+DingPush.class
 com/testerhome/hgwz/wechat/WechatConfig.class
 com/testerhome/hgwz/wechat/Api.class
 com/testerhome/hgwz/wechat/Wechat.class
