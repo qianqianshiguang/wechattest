@@ -1,4 +1,5 @@
-import java.io.IOException;
+package com.testerhome.hgwz.wechat;
+
 import java.util.ArrayList;
 
 /**
@@ -13,7 +14,7 @@ import static io.restassured.RestAssured.given;
 
 public class DingPush {
     static String token_url = "https://oapi.dingtalk.com/robot/send?access_token=6d5889e8f4f4184b207ec2b1ed4bdafe423ba391b76287bf224741c403bd9034"; //钉钉的自定义机器人，webhook值
-    static String jobname = "RestAssuredTestOffline1";
+    static String jobname = "WechatTest";
 
     static String lastnum = getLastBuildNum();//该job最后一个构建号
     public static void main(String[] args){
