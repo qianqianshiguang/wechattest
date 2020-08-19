@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d0995a-a7c4-451a-a894-2de43318b2a4" name="Default Changelist" comment="create用hashmap方式传参">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testerhome/hgwz/wechat/DingPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testerhome/hgwz/wechat/DingPush.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testerhome/hgwz/wechat/DingPush.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testerhome/hgwz/wechat/DingPush.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DingPush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DingPush.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +96,8 @@
       <recent name="com.testerhome.hgwz.contact" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.testerhome.hgwz.contact" />
       <recent name="" />
+      <recent name="com.testerhome.hgwz.contact" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -205,7 +204,7 @@
       <workItem from="1594195133276" duration="152000" />
       <workItem from="1594195499409" duration="43359000" />
       <workItem from="1597645491072" duration="13224000" />
-      <workItem from="1597805720667" duration="6684000" />
+      <workItem from="1597805720667" duration="7158000" />
     </task>
     <servers />
   </component>
